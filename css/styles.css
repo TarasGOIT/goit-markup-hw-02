@@ -1,12 +1,16 @@
 :root {
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto';
   color: rgba(117, 117, 117, 1);
 }
 
-/* .logo-first {
+.logo-first {
   color: rgba(33, 150, 243, 1);
   font-family: Raleway;
   font-style: normal;
@@ -16,14 +20,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-secondary {
+.logo {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 0.84px;
 
   letter-spacing: 0.03em;
 
   color: #000000;
-} */
+}
