@@ -1,18 +1,30 @@
 :root {
+  /* Основные шрифты */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway' sans-serif;
+  /* Цвет текста */
+  --main-color: rgb(117, 117, 117);
+  --secondary-color: rgb(33, 33, 33);
+  --unique-color: rgb(33, 150, 243);
+  --title-color: rgb(255, 255, 255);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 body {
-  font-family: 'Roboto';
-  color: rgba(117, 117, 117, 1);
+  font-family: var(--main-font)
+  color: var(--main-color);
 }
 
 .logo-first {
-  color: rgba(33, 150, 243, 1);
-  font-family: Raleway;
+  color: var(--unique-color);
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -21,13 +33,116 @@ body {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 0.84px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-link {
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.header-link-txt {
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.header-link-txt:hover {
+  color: var(--unique-color);
+}
+
+.header-link-txt:focus {
+  color: var(--unique-color);
+}
+
+.header-mail {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.header-mail:hover {
+  color: var(--unique-color);
+}
+
+.header-mail:focus {
+  color: var(--unique-color);
+}
+
+.header-phone {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+/* Секция герой */
+
+.hero-title {
+  font-family: var(--main-font);
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+  color: var(--title-color);
+}
+
+/* Секция особенности */
+
+.feature-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14px;
+  /* or 171% */
 
   letter-spacing: 0.03em;
-
-  color: #000000;
+  color: var(--main-color);
 }
