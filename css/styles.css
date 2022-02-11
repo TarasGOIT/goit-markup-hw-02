@@ -1,7 +1,7 @@
 :root {
   /* Основные шрифты */
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway' sans-serif;
+  --main-font: 'roboto', sans-serif;
+  --secondary-font: 'raleway' sans-serif;
   /* Цвет текста */
   --main-color: rgb(117, 117, 117);
   --secondary-color: rgb(33, 33, 33);
@@ -23,24 +23,18 @@ body {
   font-family: var(--main-font);
 }
 
-.logo-first {
-  color: var(--unique-color);
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 700;
+.header-logo {
+  font-family: raleway;
   font-size: 26px;
-  line-height: 0.84px;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: var(--secondary-color);
 }
 
-.logo {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-weight: 700;
+.logo-link {
+  font-family: raleway;
   font-size: 26px;
-  line-height: 0.84px;
-  letter-spacing: 0.03em;
-  color: #000000;
+  font-weight: 700;
+  color: var(--unique-color);
 }
 
 .header-link {
@@ -51,6 +45,13 @@ body {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+}
+
+.header-link:hover {
+  color: var(--unique-color);
+}
+.header-link:focus {
+  color: var(--unique-color);
 }
 
 .header-link-txt {
@@ -103,6 +104,7 @@ body {
 
 .hero-title {
   font-size: 60px;
+  font-style: var(--main-font);
   color: var(--title-color);
   font-weight: 900;
   line-height: 1.36;
@@ -116,6 +118,7 @@ body {
   line-height: 30px;
   cursor: pointer;
   color: var(--title-color);
+  background-color: var(--unique-color);
 }
 
 /* Секция особенности */
@@ -141,4 +144,67 @@ body {
 
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+/* Секция Чем мы занимаемся */
+
+.occupation-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+}
+
+/* Секция Команда сотрудников */
+.employee-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17px;
+}
+
+.employee-title-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+}
+
+/* Footer */
+
+.footer-logo {
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.footer-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: var(--title-color);
+}
+
+.footer-link-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  color: rgba(255, 255, 255, 0.6);
 }
