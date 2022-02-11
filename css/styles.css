@@ -7,6 +7,7 @@
   --secondary-color: rgb(33, 33, 33);
   --unique-color: rgb(33, 150, 243);
   --title-color: rgb(255, 255, 255);
+  /* Основные фоны */
 }
 
 .link {
@@ -18,8 +19,8 @@
 }
 
 body {
-  font-family: var(--main-font)
-  color: var(--main-color);
+  background-color: #f5f4fa;
+  font-family: var(--main-font);
 }
 
 .logo-first {
@@ -101,15 +102,10 @@ body {
 /* Секция герой */
 
 .hero-title {
-  font-family: var(--main-font);
+  font-size: 60px;
   color: var(--title-color);
-  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  line-height: 1.36;
 }
 
 .hero-button {
