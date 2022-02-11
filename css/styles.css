@@ -173,6 +173,42 @@ body {
   line-height: 1.19px;
 }
 
+/* Портфолио */
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  color: var(--title-color);
+}
+
+.nav-link:focus {
+  color: var(--title-color);
+}
+
+.services-primary-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2px;
+  color: var(--secondary-color);
+}
+
+.services-secondary-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88px;
+  color: var(--main-color);
+}
+
 /* Footer */
 
 .footer-logo {

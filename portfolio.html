@@ -5,105 +5,115 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>Портфолио</title>
 </head>
 
 <body>
   <!-- Шапка сайта -->
-  <header>
-    <a lang="en" href="./index.html">WebStudio</a>
+  <header class="header">
+    <a class="header-logo link" lang="en" href="./index.html"><span class="logo-link">Web</span>Studio</a>
 
-    <nav>
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item list"><a class="header-link-txt link" href="">Студия</a></li>
+        <li class="header-item list"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
+        <li class="header-item list"><a class="header-link link" href="">Контакты</a></li>
       </ul>
     </nav>
 
-    <a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <a class="header-mail link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a>
 
-    <a href="tel:+380961111111">+38 096 111 11 11 </a>
+    <a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11 </a>
   </header>
   <!-- Уникальный контент -->
   <main>
     <!-- Секция сайты приложения дизайн маркетинг -->
-    <section>
+    <section class="nav">
       <h2 hidden>Навигация</h2>
-      <ul>
-        <li><a href="">Все</a></li>
-        <li><a href="">Веб-сайты</a></li>
-        <li><a href="">Приложения</a></li>
-        <li><a href="">Дизайн</a></li>
-        <li><a href="">Маркетинг</a></li>
+      <ul class="nav-list">
+        <li class="nav-item list"><a class="nav-link link" href="">Все</a></li>
+        <li class="nav-item list"><a class="nav-link link" href="">Веб-сайты</a></li>
+        <li class="nav-item list"><a class="nav-link link" href="">Приложения</a></li>
+        <li class="nav-item list"><a class="nav-link link" href="">Дизайн</a></li>
+        <li class="nav-item list"><a class="nav-link link" href="">Маркетинг</a></li>
       </ul>
     </section>
     <!-- Секция портфолио -->
-    <section>
+    <section class="services">
       <h2 hidden>Портфолио</h2>
-      <ul>
-        <li>
-          <img src="./images/galery-portfolio/ноутбук.jpg" alt="ноутбук">
-          <p>Технокряк</p>
-          <p>Веб-сайт</p>
+      <ul class="services-list">
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/ноутбук.jpg" alt="ноутбук">
+          <p class="services-primary-text">Технокряк</p>
+          <p class="services-secondary-text">Веб-сайт</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/баскетбол.jpg" alt="баскетбол">
-          <p>Постер New Orlean vs Golden Star</p>
-          <p>Дизайн</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/баскетбол.jpg" alt="баскетбол">
+          <p class="services-primary-text">Постер New Orlean vs Golden Star</p>
+          <p class="services-secondary-text">Дизайн</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/логотип-ресторан.jpg" alt="логотип-ресторан">
-          <p>Ресторан Seafood</p>
-          <p>Приложение</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/логотип-ресторан.jpg" alt="логотип-ресторан">
+          <p class="services-primary-text">Ресторан Seafood</p>
+          <p class="services-secondary-text">Приложение</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/наушники.jpg" alt="наушники">
-          <p>Проект Prime</p>
-          <p>Маркетинг</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/наушники.jpg" alt="наушники">
+          <p class="services-primary-text">Проект Prime</p>
+          <p class="services-secondary-text">Маркетинг</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/коробочки.jpg" alt="коробочки">
-          <p>Проект Boxes</p>
-          <p>Приложение</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/коробочки.jpg" alt="коробочки">
+          <p class="services-primary-text">Проект Boxes</p>
+          <p class="services-secondary-text">Приложение</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/монитор.jpg" alt="монитор">
-          <p lang="en">Inspiration has no Borders</p>
-          <p>Веб-сайт</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/монитор.jpg" alt="монитор">
+          <p class="services-primary-text" lang="en">Inspiration has no Borders</p>
+          <p class="services-secondary-text">Веб-сайт</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/книга.jpg" alt="книга">
-          <p>Издание Limited Edition</p>
-          <p>Дизайн</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/книга.jpg" alt="книга">
+          <p class="services-primary-text">Издание Limited Edition</p>
+          <p class="services-secondary-text">Дизайн</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/ярлык.jpg" alt="ярлык">
-          <p>Проект LAB</p>
-          <p>Маркетинг</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/ярлык.jpg" alt="ярлык">
+          <p class="services-primary-text">Проект LAB</p>
+          <p class="services-secondary-text">Маркетинг</p>
         </li>
-        <li>
-          <img src="./images/galery-portfolio/ноутбук-печать.jpg" alt="Печатает текст на ноутбуке">
-          <p lang="en">Growing Business</p>
-          <p>Приложение</p>
+        <li class="services-item list">
+          <img class="services-image" src="./images/galery-portfolio/ноутбук-печать.jpg"
+            alt="Печатает текст на ноутбуке">
+          <p class="services-primary-text" lang="en">Growing Business</p>
+          <p class="services-secondary-text">Приложение</p>
         </li>
       </ul>
     </section>
   </main>
 
   <!-- Подвал сайта -->
-  <footer>
-    <a lang="en" href="./index.html">WebStudio</a>
-    <ul>
-      <li>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <a class="footer-logo link" lang="en" href="./index.html"><span class="logo-link">Web</span>Studio</a>
+    <ul class="footer-list">
+      <li class="footer-item list">
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
       </li>
-      <li>
-        <a lang="en" href="mailto:info@example.com">info@example.com</a>
+      <li class="list">
+        <a class="footer-link-mail link" lang="en" href="mailto:info@example.com">info@example.com</a>
       </li>
-      <li>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <li class="list">
+        <a class="footer-link-phone link" href="tel:+380991111111">+38 099 111 11 11</a>
       </li>
     </ul>
   </footer>
