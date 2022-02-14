@@ -54,13 +54,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.curent {
+.current {
   color: var(--unique-color);
 }
 
-.header-link:hover {
-  color: var(--unique-color);
-}
+.header-link:hover,
 .header-link:focus {
   color: var(--unique-color);
 }
@@ -75,10 +73,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-link-txt:hover {
-  color: var(--unique-color);
-}
-
+.header-link-txt:hover,
 .header-link-txt:focus {
   color: var(--unique-color);
 }
@@ -93,10 +88,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-mail:hover {
-  color: var(--unique-color);
-}
-
+.header-mail:hover,
 .header-mail:focus {
   color: var(--unique-color);
 }
@@ -111,10 +103,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-phone:hover {
-  color: var(--unique-color);
-}
-
+.header-phone:hover,
 .header-phone:focus {
   color: var(--unique-color);
 }
@@ -214,13 +203,10 @@ body {
   cursor: pointer;
 }
 
-.nav-button:hover {
-  color: var(--title-color);
-  background-color: var(--unique-color);
-}
-
+.nav-button:hover,
 .nav-button:focus {
   color: var(--title-color);
+  background-color: var(--unique-color);
 }
 
 .services-primary-text {
@@ -268,9 +254,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link-mail:hover {
-  color: var(--unique-color);
-}
+.footer-link-mail:hover,
 .footer-link-mail:focus {
   color: var(--unique-color);
 }
@@ -284,10 +268,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link-phone:hover {
-  color: var(--unique-color);
-}
-
+.footer-link-phone:hover,
 .footer-link-phone:focus {
   color: var(--unique-color);
 }
